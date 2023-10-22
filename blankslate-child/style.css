@@ -1,0 +1,327 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Version: 2023 */
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#site-title img {
+	
+	margin-left:20px ;
+	width: 190px;	
+}
+
+#menu-planty {
+	display: flex !important;
+	list-style: none !important;
+	height: 100% !important;
+	align-items: center !important;
+	column-gap: 20px !important;
+justify-content: center !important ;
+height:100% !important ;
+
+}
+
+header{
+	display:flex !important;
+	justify-content: space-between !important;
+	align-items: center !important ;
+	background-color:rgb(255, 255, 255);
+	height: 80px;
+}
+
+#menu-item-295 a {
+	color:black;
+	font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#menu-item-296 a {
+	color:rgb(255, 255, 255);
+	font-family:syne ;
+	font-size:16px ;
+	background-color: #DC9F96;
+	height: 100% ;
+	padding: 31px;
+	font-weight: 700;
+	line-height: 19.2px
+}
+
+#footer a{
+
+	font-family:syne ;
+	font-size:16px;
+	color:black;
+	}
+
+footer {
+display:flex !important ;
+justify-content:center !important ;
+background-color:white ;
+	height:60px ;
+	align-items:center ;
+}
+
+#admin_link a {
+color : black !important ;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+ul#menu-planty li:nth-child(2) {
+    order: 3 ;}
+
+form > p {
+	display: flex;
+	justify-content: center;
+}
+
+.quantite {
+	display: flex;
+	width: 100%;
+	gap: 20px;
+
+}
+
+.quantite .input p {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.input p span {
+	display: none;
+}
+.quantite .input {
+	flex: 1;
+	position: relative;
+	height: 50px;
+}
+
+.input:before{
+	content:"+";
+   position: absolute;
+   top: 0;
+   color: white;
+   width: 36px;
+   border-top-right-radius:10px;
+   height: 25px;
+   background-color: hsl(7, 42%, 79%);
+  left:calc(45% - 36px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.input:after{
+	content:"-";
+	position: absolute;
+	bottom: 0;
+	left: calc(45% - 36px);
+	 background-color: #E0B9B4;
+	 color: white;
+  	text-align: center;
+ 	 align-items: center;
+  	width: 36px;
+  	height: 25px;
+	border-bottom-right-radius:10px;
+	 display: flex;
+	 justify-content: center;
+   	align-items: center;
+
+}
+
+	
+.input p input[type=number] {
+	width: 45%;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	text-align: center;
+}
+.input p input[type=submit].wpcf7-form-control.wpcf7-submit.has-spinner.ok {
+	width: 50%;
+	height: 50px;
+	margin: 0;
+}
+
+.separateur {
+	width: 50%;
+    height: 1px;
+    background: white;
+    margin: 30px auto;
+}
+
+
+.contact-left h2 , .contact-right h2{
+	display: flex;
+	width: 100%;
+	padding-left: 80px;
+
+}
+.contact-left{
+   
+border-right: solid 1px white;
+align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	font-size: 20px;
+	font-family: Syne;
+	color: white;
+	font-weight: 500;
+	line-height: inherit;
+}
+
+.elementor-6 .elementor-element.elementor-element-eb6b1b7 .wpcf7-text {
+	width:400px !important;
+	
+	
+	
+}
+
+.contact-right{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	font-size: 20px;
+	font-family: Syne;
+	color: white;
+	font-weight: 500;
+	line-height: inherit;
+	align-items: center;
+	
+}
+
+.contact-global{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 60px;
+  }
+
+
+.elementor-6 .elementor-element.elementor-element-eb6b1b7 .wpcf7-text{
+	height: 70px;
+	border-radius: 7px;
+	margin: 0;
+}
+.contact-global:nth-child(3) {
+	display: flex;
+	justify-content: center;
+}
+#commander {
+	width: 198px;
+	height: 55px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	border-radius: 7px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	background-color: #E0B9B4;
+	
+	
+}
+
+.wpcf7-spinner {
+	display: none;
+}
+
+#commander:hover{
+	background-color: #CE3E42;
+}
+
+#livraison h2{
+	padding-left: 40px;
+}
+
+.material-symbols-outlined {
+	display: none;
+	z-index: 3;
+  }
+  .responsive-navigation {
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fcf9e6;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	row-gap: 50px;
+	text-align: left;
+	margin-left: -100%;
+	transition: all 0.5s ease-in-out;
+	z-index: 2;
+  }
+  .mobile-menu {
+	margin: 0;
+	z-index: -1;
+  }
+  .responsive-menu{
+	display: none;
+
+  }
+
+  @media screen and (max-width:767px){
+	.quantite {
+		display: flex;
+		width: 100%;
+		gap: 230px;
+		flex-direction: column;
+		margin-top: -900px;
+		left: 51px;
+	}
+	#quantite .input { 
+	width: 82px;
+    height: 56px; }
+
+	
+  }
+  @media screen and (max-width: 600px){
+	.responsive-menu{
+		display: block;
+	
+	  }
+	.material-symbols-outlined {
+		display: block;
+		/* z-index: 10; */
+		display: block;
+		position: relative;
+		padding: 12px 40px;
+		text-align: left;
+	}
+	  }
+	  .menu-responsive-container {
+		display: block;
+	  }
+	  #menu {
+		display: none;
+	  }
+  
+  
